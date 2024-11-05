@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+}
+
+.button {
+  display: flex;
+  padding: 13px 35px;
+  background-color: #007bff;
+  color: var(--text-color);
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 50px;
+  border: none;
+  background-color: white;
+  border: 1px solid var(--text-color);
+  cursor: pointer;
+}
+:root {
+  /* Ranglar */
+  --text-color: #010205; // Asosiy rang
+  --secondary-color: #878c91; // Ikkinchi rang
+  --background-color: #010205; // Fon rangi
+
+  /* Shrift o‘lchamlari */
+  --font-size-large: 80px; // Katta shrift o‘lchami
+  --font-size-medium: 48px; // O‘rtacha shrift o‘lchami
+  --font-size-small: 16px; // Kichik shrift o‘lchami
+
+  /* Bo‘sh joylar va radiuslar */
+  --padding-small: 8px; // Kichik padding
+  --padding-medium: 30px; // O‘rtacha padding
+  --border-radius: 4px; // Chekka radiusi
+
+  /* O‘rta joylar va radiuslar */
+  --margin-small: 8px;
+  --margin-medium: 16px;
+}

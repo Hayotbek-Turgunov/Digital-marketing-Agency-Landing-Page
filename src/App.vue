@@ -1,0 +1,15 @@
+<template>
+  <Header />
+  <main>
+    <Banner />
+    <Provide />
+    <Project />
+  </main>
+</template>
+
+<script setup>
+import Header from "./components/Header.vue";
+import Banner from "./components/Banner.vue";
+import Provide from "./components/Provide.vue";
+import Project from "./components/Project.vue";
+</script>
