@@ -46,8 +46,8 @@ import porfolioBoxBg from "../assets/img/project-box-bg2.png";
 <style scoped lang="scss">
 .portfolio {
   position: relative;
-  width: 1400px;
-  height: 925px;
+  width: 1380px;
+  height: 900px;
   margin: auto;
   padding-left: 64px;
   // padding-right: 64px;
@@ -57,6 +57,7 @@ import porfolioBoxBg from "../assets/img/project-box-bg2.png";
   background-size: cover;
   margin-bottom: 30px;
   border-radius: 30px;
+  margin-bottom: 103px;
 
   &-head {
     text-align: center;
