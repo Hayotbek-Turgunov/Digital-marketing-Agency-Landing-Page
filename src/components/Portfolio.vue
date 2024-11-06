@@ -100,8 +100,8 @@ import porfolioBoxBg from "../assets/img/project-box-bg2.png";
     gap: 40px;
 
     .project-cart {
-      width: 430px;
-      height: 430px;
+      width: 420px;
+      height: 420px;
       border: 11px solid gray;
       background-color: rgba(255, 255, 255, 0.7);
       border-radius: 10px;
@@ -135,7 +135,7 @@ import porfolioBoxBg from "../assets/img/project-box-bg2.png";
       }
       .project-cart-deck {
         font-family: Plus Jakarta Sans;
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 600;
         line-height: 33.6px;
         text-align: left;
